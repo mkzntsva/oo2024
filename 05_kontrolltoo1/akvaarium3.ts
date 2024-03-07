@@ -17,7 +17,7 @@ class Akvaarium {
 
     lisaVett(kogus: number): void {
         this.vesiKogus += kogus;
-        console.log(kogus + ' kuupsentimeetrit vett lisati akvaariumile');
+        //console.log(kogus + ' kuupsentimeetrit vett lisati akvaariumile');
     }
 
     kysiVeeKogus(): number {
@@ -30,7 +30,7 @@ class Akvaarium {
 
         if (vabaRuum >= kogus + 2) {
             this.vesiKogus -= kogus;
-            //akvaarium.lisaVett(kogus);
+            akvaarium.lisaVett(kogus);
             console.log(kogus + ' kuupsentimeetrit vett valati üle teise akvaariumisse');
             console.log('Esimese akvaariumi vesi Kogus on: ' + this.vesiKogus + ' kuupsentimeetrit');
             console.log('Teise akvaariumi vesi Kogus on: ' + akvaarium.vesiKogus + ' kuupsentimeetrit');
@@ -57,14 +57,11 @@ akvaarium1.veeValamine(akvaarium2, 100000);
 
 //väljund
 //Esimese akvaariumi ruumala: 200000 kuupsentimeetrit
-//110000 kuupsentimeetrit vett lisati akvaariumile
 //Esimese akvaariumi vesi Kogus on: 110000
 
 //Teise akvaariumi ruumala: 120000 kuupsentimeetrit
-//14500 kuupsentimeetrit vett lisati akvaariumile
 //Teise akvaariumi vesi Kogus on: 14500
 
-//100000 kuupsentimeetrit vett lisati akvaariumile
 //100000 kuupsentimeetrit vett valati üle teise akvaariumisse
 //Esimese akvaariumi vesi Kogus on: 10000 kuupsentimeetrit
 //Teise akvaariumi vesi Kogus on: 114500 kuupsentimeetrit
