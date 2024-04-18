@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMI Kalkulaator</title>
+</head>
+<body>
+    <h1>Kehamassiindeksi Kalkulaator</h1>
+    <div>
+        <label for="pikkus">Pikkus (cm): </label>
+        <input type="range" id="pikkus" min="90" max="250" step="1" value="90">
+        <span id="pikkusValue">90</span>  cm
+    </div>
+    <div>
+        <label for="kaal">Kaal (kg): </label>
+        <input type="range" id="kaal" min="20" max="200" step="1" value="20">
+        <span id="kaalValue">200</span> kg
+    </div>
+    <div>
+        <label for="kmi">KMI: </label>
+        <span id="kmi"></span>
+    </div>
+    <div>
+        <label for="seisund">Seisund: </label>
+        <span id="seisund"></span>
+    </div>
+    <script src="kodutoo.js"></script>
+</body>
+</html>
