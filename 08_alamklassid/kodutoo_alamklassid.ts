@@ -48,3 +48,11 @@ console.log("-------------------");
 console.log(tartu.tutvusta());
 console.log(tartu.huvitavFakt());
 console.log("-------------------");
+
+
+//Linn: Tallinn, Maakond: Harju maakond, Rahvastiku arv: 460642, Vaatamisväärsused: Tallinna Vanalinn, Kadrioru park, Lennusadam
+//Tallinn on tuntud kui Baltikumi kultuuripealinn!
+//-------------------
+//Linn: Tartu, Maakond: Tartu maakond, Rahvastiku arv: 97524, Vaatamisväärsused: Tartu Ülikool, Tartu Toomkirik, Ahhaa Teaduskeskus
+//Tartu on Eesti haridus- ja kultuuripealinn!
+//-------------------
